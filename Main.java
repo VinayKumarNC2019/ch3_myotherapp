@@ -2,7 +2,7 @@ public class Main {
     public static void main(String[] args) {
         SomeResource res = new SomeResource();
         try {
-            System.out.println("This is my other app. :)"
+            System.out.println("This is my other app. :)");
         } finally {
             res.close();
         }
