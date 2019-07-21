@@ -11,6 +11,6 @@ public class Main {
 
 class SomeResource {
     public void close() {
-        System.out.println("Hello from Java 6!");
+        System.out.printf("Hello from Java %s!%n", System.getProperty("java.version"));
     }
 }
