@@ -1,4 +1,4 @@
-FROM java:6
+FROM openjdk:11.0.4-jdk-slim
 COPY . /example
 WORKDIR /example
 
